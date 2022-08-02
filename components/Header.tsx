@@ -96,7 +96,7 @@ const recentPosts = [
   { id: 3, name: "Improve your customer experience", href: "#" },
 ];
 
-// we don't need this func as classnames lib does the trick
+// we don't need this func as classnames lib does the job
 // function classNames(classes: [any]) {
 //   return classes.filter(Boolean).join(" ");
 // }
