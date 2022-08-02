@@ -124,7 +124,7 @@ export default function Header() {
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
             <Popover className="relative">
-              {({ open }) => (
+              {({open}: {open:any}) => (
                 <>
                   <Popover.Button
                     className={classNames(
@@ -212,7 +212,7 @@ export default function Header() {
             </a>
 
             <Popover className="relative">
-              {({ open }) => (
+              {({open}:{open:any}) => (
                 <>
                   <Popover.Button
                     className={classNames(
