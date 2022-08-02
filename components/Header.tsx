@@ -16,6 +16,7 @@ import {
   ViewGridIcon,
   XIcon,
 } from "@heroicons/react/outline";
+import classNames from "classnames";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const solutions = [
@@ -95,9 +96,10 @@ const recentPosts = [
   { id: 3, name: "Improve your customer experience", href: "#" },
 ];
 
-function classNames(classes: [any]) {
-  return classes.filter(Boolean).join(" ");
-}
+// we don't need this func as classnames lib does the job
+// function classNames(classes: [any]) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
 export default function Header() {
   return (
